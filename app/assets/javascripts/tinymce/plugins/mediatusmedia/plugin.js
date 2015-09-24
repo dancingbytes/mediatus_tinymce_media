@@ -134,13 +134,13 @@
 
     function showDialog() {
 
-      onInit()
+      onInit();
 
       var win = ed.windowManager.open({
 
         title:  'Загрузка изображений',
         width:  770,
-        height: 370,
+        height: 376,
 
         html:  Tmpl(FORM_TMPL, {
 
@@ -176,6 +176,10 @@
         startCls:   'fileupload-start',
         errorCls:   'fileupload-error',
         dropCls:    'fileupload-drop-over',
+        crop: {
+          width:  375,
+          height: 375
+        },
         getResult:  function(d) {
 
           RESULT['2-1'] = d.url;
@@ -191,6 +195,10 @@
         startCls:   'fileupload-start',
         errorCls:   'fileupload-error',
         dropCls:    'fileupload-drop-over',
+        crop: {
+          width:  375,
+          height: 375
+        },
         getResult:  function(d) {
 
           RESULT['2-2'] = d.url;
@@ -206,6 +214,10 @@
         startCls:   'fileupload-start',
         errorCls:   'fileupload-error',
         dropCls:    'fileupload-drop-over',
+        crop: {
+          width:  750,
+          height: 433
+        },
         getResult:  function(d) {
 
           RESULT['1'] = d.url;
