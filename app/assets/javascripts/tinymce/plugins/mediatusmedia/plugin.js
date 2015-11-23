@@ -31,8 +31,8 @@
                   '<input name="utf8" type="hidden" value="✓">' +
                   '<input type="hidden" name="authenticity_token" value="{authenticity_token}">' +
 
-                  '<div class="thumbnail fileupload-btn-2-1-dropzone">' +
-                    '<div class="image"><span>{size_2_1}</span></div>' +
+                  '<div class="thumbnail fileupload-btn-2-1-dropzone" style="height:385px;">' +
+                    '<div class="image" style="height:375px; line-height:375px;"><span>{size_2_1}</span></div>' +
                   '</div>' +
 
                   '<input type="file" class="btn btn-primary btn-sm fileupload-btn-2-1" title="{button_name}" name="file">' +
@@ -46,8 +46,8 @@
                   '<input name="utf8" type="hidden" value="✓">' +
                   '<input type="hidden" name="authenticity_token" value="{authenticity_token}">' +
 
-                  '<div class="thumbnail fileupload-btn-2-2-dropzone">' +
-                    '<div class="image"><span>{size_2_2}</span></div>' +
+                  '<div class="thumbnail fileupload-btn-2-2-dropzone" style="height:385px;">' +
+                    '<div class="image" style="height:375px; line-height:375px;"><span>{size_2_2}</span></div>' +
                   '</div>' +
 
                   '<input type="file" class="btn btn-primary btn-sm fileupload-btn-2-2" title="{button_name}" name="file">' +
@@ -63,14 +63,14 @@
 
             '<div class="row images-preview">' +
 
-              '<div class="col-md-12">' +
+              '<div class="col-md-12" style="width:750px; float:none; margin:0 auto;">' +
 
                 '<form action="{url}" accept-charset="UTF-8" method="post">' +
                   '<input name="utf8" type="hidden" value="✓">' +
                   '<input type="hidden" name="authenticity_token" value="{authenticity_token}">' +
 
-                  '<div class="thumbnail fileupload-btn-1-dropzone">' +
-                    '<div class="image"><span>{size_1}</span></div>' +
+                  '<div class="thumbnail fileupload-btn-1-dropzone" style="height:443px;">' +
+                    '<div class="image" style="height:433px; line-height:433px;"><span>{size_1}</span></div>' +
                   '</div>' +
 
                   '<input type="file" class="btn btn-primary btn-sm fileupload-btn-1" title="{button_name}" name="file">' +
@@ -139,8 +139,8 @@
       var win = ed.windowManager.open({
 
         title:  'Загрузка изображений',
-        width:  770,
-        height: 376,
+        width:  796,
+        height: 525, //376,
 
         html:  Tmpl(FORM_TMPL, {
 
