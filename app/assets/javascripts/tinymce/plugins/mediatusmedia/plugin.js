@@ -63,7 +63,7 @@
 
             '<div class="row images-preview">' +
 
-              '<div class="col-md-12 fileupload-btn-1">' +
+              '<div class="col-md-12 fileupload-btn-1-cnt">' +
 
                 '<form action="{url}" accept-charset="UTF-8" method="post">' +
                   '<input name="utf8" type="hidden" value="✓">' +
