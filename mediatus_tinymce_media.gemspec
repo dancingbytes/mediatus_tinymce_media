@@ -11,10 +11,9 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Plugin for TinyMCE for upload media objects.}
   spec.description   = %q{Plugin for TinyMCE for upload media objects.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "https://github.com/dancingbytes/mediatus_tinymce_media"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
-  spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
   spec.license       = "BSD"
